@@ -1,0 +1,99 @@
+djt_AND pnf_XOR
+djt_AND tmr_OR
+wsw_XOR x02
+wsw_XOR y02
+hhp_AND x01
+hhp_AND y01
+rkw_XOR x04
+rkw_XOR y04
+sbf_AND x05
+sbf_AND y05
+pvw_AND wps_XOR
+pvw_AND kmn_OR
+rgc_OR swt_XOR
+rgc_OR ghb_AND
+vpv_XOR y09
+vpv_XOR x09
+kmn_OR qfb_AND
+kmn_OR snk_AND
+ddq_OR pbh_AND
+ddq_OR htn_AND
+wps_XOR x03
+wps_XOR y03
+swt_XOR kpv_XOR
+swt_XOR rvc_OR
+btc_AND y03
+btc_AND x03
+qgc_XOR x06
+qgc_XOR y06
+pbq_AND rkw_XOR
+pbq_AND shk_OR
+z04_XOR shk_OR
+z04_XOR rkw_XOR
+z06_XOR qgc_XOR
+z06_XOR kfh_OR
+bcp_XOR x08
+bcp_XOR y08
+pbh_AND bcp_XOR
+pbh_AND rgc_OR
+dpv_AND x04
+dpv_AND y04
+z03_XOR wps_XOR
+z03_XOR kmn_OR
+z09_XOR vpv_XOR
+z09_XOR ddq_OR
+kpv_XOR y07
+kpv_XOR x07
+qfb_AND bmc_OR
+qfb_AND wsw_XOR
+ghb_AND rvc_OR
+ghb_AND kpv_XOR
+thc_XOR y01
+thc_XOR x01
+rvc_OR cfw_AND
+rvc_OR mwg_AND
+tmr_OR pbq_AND
+tmr_OR dpv_AND
+snk_AND y02
+snk_AND x02
+pnf_XOR x05
+pnf_XOR y05
+ngv_AND brj_AND
+ngv_AND thc_XOR
+htn_AND x08
+htn_AND y08
+cfw_AND qgc_XOR
+cfw_AND kfh_OR
+bmc_OR ngv_AND
+bmc_OR hhp_AND
+mwg_AND y06
+mwg_AND x06
+brj_AND x00
+brj_AND y00
+z05_XOR tmr_OR
+z05_XOR pnf_XOR
+z07_AND x07
+z07_AND y07
+kfh_OR djt_AND
+kfh_OR sbf_AND
+z02_XOR wsw_XOR
+z02_XOR bmc_OR
+z01_XOR thc_XOR
+z01_XOR brj_AND
+z08_XOR bcp_XOR
+z08_XOR rgc_OR
+shk_OR btc_AND
+shk_OR pvw_AND
+z00_XOR y00
+z00_XOR x00
+sus: bgs has parent OR but not an AND gate
+sus: z07 is a zXX gate but is not XOR
+sus: rjm is AND gate but has != 1 dependencies
+sus: bgs is a XOR gate but is not connected to x, y or z
+sus: wsv has parent OR but not an AND gate
+sus: swt has parent OR but not an AND gate
+sus: z13 is a zXX gate but is not XOR
+sus: pqc is a XOR gate but is not connected to x, y or z
+sus: swt is a XOR gate but is not connected to x, y or z
+sus: z31 is a zXX gate but is not XOR
+bgs,pqc,rjm,swt,wsv,z07,z13,z31
